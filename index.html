@@ -47,6 +47,10 @@ path.bgline {
 <body>
 
     <script>
+        var c;
+        d3.csv("sunshine.csv", function(rows){
+            alert(rows);
+        });
 
         // Generate some data.
         function f1 (x) {
